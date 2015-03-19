@@ -1,0 +1,263 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 1.5em;
+}
+
+h2 {
+  color: dodgerblue;
+  margin-bottom: 0;
+  font-family: "Trocchi", serif;
+  font-size: 1.3em;
+}
+
+a {
+  color: grey;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+
+
+
+
+
+/* NAV BAR */
+
+nav {
+  /*padding: 2em 2em 2em 2em;*/
+/*  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;*/
+  padding: .5em;
+}
+
+header > nav > h1 {
+/*  margin: 0 10em 0 0;
+  padding: 1em 0 .5em 2em;*/
+  padding: .5em;
+  /*margin-bottom: .4em;*/
+}
+
+header > nav > h1 > a {
+  color: dodgerblue;
+  font-family: "Trocchi", serif;
+}
+
+nav > ul {
+  float: right;
+  padding: 1.4em 3em 0 2em;
+}
+
+nav > ul > li > a:hover {
+  border-top: 3px solid mediumseagreen;
+  padding-top: .2em;
+  transition: border-top 0.2s ease-in-out 0;
+}
+
+.hovering {
+  border-top: 3px solid mediumseagreen;
+  padding-top: .2em;
+}
+
+nav > ul > li {
+  padding: 0 0 0 2em;
+  display: inline-block;
+}
+
+nav > ul > li:first-child {
+  padding: 0;
+}
+
+
+
+
+/* STUFF IN THE MIDDLE OF THE PAGE */
+
+
+/* 1ST PARAGRAPH */
+
+#navi {
+  height: 35em;
+  width: 100%;
+  background: url("./img/52.jpg") no-repeat;
+  background-size: 120% 170%;
+  background-position: -15em -15em;
+  overflow: hidden;
+}
+
+#navi > p {
+  font-family: "Raleway", serif;
+  background-color: rgba(0,0,0,0.7);
+  /*height: 10em;*/
+  width: 17em;
+  position: relative;
+  top: 6em;
+  left: 31em;
+  /*display: block;*/
+  color: white;
+  padding: 1.2em 1.2em 1.2em 1.2em;
+  font-size: 1.6em;
+  line-height: 1.5em;
+  border-radius: 3px;
+}
+
+#navi > p > span {
+  display: block;
+  text-indent: 3em;
+  font-size: .7em;
+  font-family: "Trocchi", sans-serif;
+}
+
+
+
+
+/* 2ND PARAGRAPH */
+
+#offer {
+  padding: 5em 0 7em 0;
+  width: 80%;
+  margin: 0 auto;
+  /*margin-top: 1em;*/
+  /*margin-bottom: 1em;*/
+}
+
+#offer > h2 {
+  text-align: center;
+  font-family: "Trocchi", serif;
+  font-size: 1.7em;
+  margin: 0 0 1em 0;
+}
+
+#offer > ul {
+  padding: 0;
+  margin: 0;
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-end;
+}
+
+#offer > ul > li {
+  /*display: inline-block;*/
+  text-align: center;
+  margin: 2em 3em 0 3em;
+}
+
+#mission {
+  padding: 5em 2em 5em 2em;
+  border-bottom: 1px solid gainsboro;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#mission > h2 {
+  font-family: "Trocchi", serif;
+  text-align: center;
+  font-size: 1.7em;
+  margin: 0 0 1em 0;
+}
+
+#mission > p {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 1em;
+  line-height: 1.7em;
+  font-size: 1.1em;
+  text-indent: 1.5em;
+  color: grey;
+}
+
+
+/* ABOUT */
+
+#about {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 3em;
+  margin-bottom: 10em;
+}
+
+#about > img {
+    float: left;
+    clear: both;
+    overflow: hidden;
+}
+
+#about > p {
+    display: inline-block;
+    width: 70%;
+    line-height: 1.7em;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+footer {
+  background: url("./img/6.jpg") no-repeat;
+  background-size: 100% 250%;
+  background-position: -18em -18em;
+  overflow: hidden;
+  color: grey;
+}
+
+footer > nav {
+  display: flex;
+  justify-content: center;
+}
+
+footer > nav > div {
+  padding: 1em;
+  margin: 1em;
+  border: 3px solid white;
+  border-radius: 3px;
+  font-weight: bold;
+  height: 10em;
+  width: 15em;
+  text-align: center;
+}
+
+footer > nav > div > h2 {
+  border-bottom: 3px solid mediumseagreen;
+  margin: 0 0 .5em 0;
+  display: inline-block;
+}
+
+footer > nav > div > p {
+  padding: .5em 0 .5em 0;
+}
+
+
+@media (max-width: 768px) {
+  #desktop-logo {
+    display: none;
+  }
+
+  #mobile-logo {
+    display: inline;
+      width:5em;
+  }
+
+  .navbar-toggle {
+    margin: 0;
+  }
+
+  .navbar .navbar-collapse {
+    border: none;
+  }
+
+  .navbar-default {
+    background-color: white;
+  }
+
+}

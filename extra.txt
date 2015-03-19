@@ -1,0 +1,87 @@
+<!--         <nav class="navbar navbar-default" role="navigation">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a id="mobile-logo" class="navbar-brand" href="#">Logo</a>
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="navbar">
+              <ul class="nav navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Resources</a></li>
+              </ul>
+              <a id="desktop-logo" class="navbar-brand" href="#">Logo</a>
+              <ul class="nav navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Resources</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav> -->
+
+
+
+<!--         <div class="container-fluid">
+
+
+      <nav class="navbar navbar-default" role="navigation"> -->
+        <!-- Brand and toggle get grouped for better mobile display -->
+<!--         <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div> -->
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+<!--         <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav nav-tabs nav-justified">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#"><h1>Childhood Speech &amp; Language</h1></a></li>
+                <li><a href="#">Common Questions</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </div>
+      </nav> -->
+
+
+
+<!--             <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 .col-sm-10 col-sm-offset-1 .col-xs-12"> -->
+                    <!-- <img src="./img/header.gif" alt="Childhood Speech and Langauge logo" /> -->
+<!--                     <ul class="text-center">
+                        <li><a href="#">Home</a></li> -->
+                        <!-- <li role="presentation"><a href="#">Resources</a></li> -->
+<!--                         <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Childhood Speech &amp; Language</a></li>
+                        <li><a href="#">Common Questions</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+            </div> -->
+
+<!--             <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div>Welcome to Childhood Speech &amp; Language (CSL). CSL provides pediatric speech and language therapy to children throughout the Seattle metropolitan area. Our Overlake location, just off 520, is ideally located to the entire Eastside area, including Redmond, Bellevue, Kirkland and Sammamish.<br>
+                    At CSL, we serve a wide variety of families with children as young as 18 months, up to age 10. Some of the services we provide include treatment of:
+                        <ul>
+                            <li>Autism Spectrum Disorder (ASD), Asperger's Syndrome, PDD</li>
+                            <li>Apraxia of Speech / Motor Speech Disorders</li>
+                            <li>Articulation Disorders</li>
+                            <li>Phonological Disorders</li>
+                            <li>Developmental Language Delays</li>
+                            <li>Receptive and/or Expressive Language Disorders</li>
+                            <li>Social Use of Language</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div> -->
